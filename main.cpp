@@ -4,11 +4,11 @@
  */
 
 #include <iostream>
-#include <cmath>
-#include <ctime>
+
 
 using namespace std;
 
+/*
 class Figure{
 public:
     virtual double area() const = 0;
@@ -16,7 +16,8 @@ public:
     virtual string info() const = 0;
     virtual void print() const = 0;
 };
-
+ */
+/*
 class Cube: public Figure{
 protected:
     double _side;
@@ -34,7 +35,8 @@ public:
         cout << "Name of figure: " << info() << endl << "Side: " << _side << endl;
     }
 };
-
+ */
+/*
 class Sphere: public Figure{
 protected:
     double _radius;
@@ -52,7 +54,8 @@ public:
         cout << "Name of figure: " << info() << endl << "Radius: " << _radius << endl;
     }
 };
-
+ */
+/*
 class Cone: public Figure{
 protected:
     double _length, _height, _radius;
@@ -71,10 +74,9 @@ public:
             endl << "Height: " << _height << endl << "Radius: " << _radius << endl;
     }
 };
+ */
 
-class Collection{
 
-};
 
 int main() {
     printf("\x1B[32m\033[0m\t\t");
