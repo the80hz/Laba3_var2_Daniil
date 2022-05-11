@@ -1,8 +1,0 @@
-# ninja log v5
-1	428	1652292515653310808	CMakeFiles/Daniil.dir/main.cpp.o	2eb03b0abb978eaf
-439	494	1652292515721483103	Daniil	b76915fa0199d73f
-2	438	1652292515664182775	CMakeFiles/Daniil.dir/cube.cpp.o	ea18a587edd7a8da
-1	453	1652292928668021606	CMakeFiles/Daniil.dir/sphere.cpp.o	3c13a95fc6419434
-2	453	1652292928667988941	CMakeFiles/Daniil.dir/cone.cpp.o	c25b0357f6d0aa39
-1	454	1652292928668953480	CMakeFiles/Daniil.dir/cube.cpp.o	ea18a587edd7a8da
-454	509	1652292928726926695	Daniil	7c395d1d246ec09a
