@@ -4,3 +4,9 @@
 
 #include "collection.h"
 
+int collection::number(){
+    return _num;
+}
+void collection::add(figure* obj){
+
+}

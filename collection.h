@@ -10,8 +10,17 @@
 #define DANIIL_COLLECTION_H
 
 
-class collection {
+class collection{
+private:
+    int _num;
+    figure** _A = nullptr;
 
+public:
+    int number();
+    void add(figure* obj);
+    void printAll();
+    void delIndex();
+    void delAll();
 };
 
 

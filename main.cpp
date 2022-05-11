@@ -6,6 +6,7 @@
 #include <iostream>
 
 using namespace std;
+
 void printMenu(){
     cout << "\x1B[32mMenu:\033[0m\t\n" <<
     "\x1B[32m[1]\033[0m\t Add cube\n" <<
@@ -17,20 +18,41 @@ void printMenu(){
     "\x1B[32m[7]\033[0m\t Print all\n" <<
     "\x1B[32m[8]\033[0m\t Help\n" <<
     "\x1B[32m[0]\033[0m\t Exit";
-};
+}
 
-int main() {
+int main(){
     int command = 8;
     while(true){
+        int a = 0, b = 0, c = 0;
         switch(command){
             case 1:
-                cout << "Ввод нового куба";
+                while(a <= 0){
+                    cout << "Enter side: ";
+                    cin >> a;
+                }
+
                 break;
             case 2:
-                cout << "Ввод нового шара";
+                while(a <= 0){
+                    cout << "Enter radius: ";
+                    cin >> a;
+                }
+
                 break;
             case 3:
-                cout << "Ввод нового конуса";
+                while(a <= 0){
+                    cout << "Enter length: ";
+                    cin >> a;
+                }
+                while(b <= 0){
+                    cout << "Enter height: ";
+                    cin >> b;
+                }
+                while(c <= 0){
+                    cout << "Enter radius: ";
+                    cin >> c;
+                }
+
                 break;
             case 4:
                 cout << "Рандомный объект";
@@ -53,8 +75,9 @@ int main() {
             default:
                 break;
         }
-        cout << endl << "Enter: ";
+        cout << endl << "Enter menu: ";
         cin >> command;
+        cout << endl;
         if (command == 0) break;
     }
     return 0;
