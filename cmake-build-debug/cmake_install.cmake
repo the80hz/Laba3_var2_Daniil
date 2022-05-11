@@ -1,4 +1,4 @@
-# Install script for directory: /Users/the80hz/Projects/CLionProjects/Daniil
+# Install script for directory: /Users/the80hz/Projects/CLionProjects/Laba3_var2_Daniil
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/the80hz/Projects/CLionProjects/Daniil/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/the80hz/Projects/CLionProjects/Laba3_var2_Daniil/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

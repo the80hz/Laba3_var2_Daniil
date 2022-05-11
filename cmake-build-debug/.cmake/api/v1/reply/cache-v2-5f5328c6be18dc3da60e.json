@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/the80hz/Projects/CLionProjects/Daniil/cmake-build-debug"
+			"value" : "/Users/the80hz/Projects/CLionProjects/Laba3_var2_Daniil/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -515,7 +515,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/the80hz/Projects/CLionProjects/Daniil"
+			"value" : "/Users/the80hz/Projects/CLionProjects/Laba3_var2_Daniil"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -1087,7 +1087,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/the80hz/Projects/CLionProjects/Daniil/cmake-build-debug"
+			"value" : "/Users/the80hz/Projects/CLionProjects/Laba3_var2_Daniil/cmake-build-debug"
 		},
 		{
 			"name" : "Daniil_IS_TOP_LEVEL",
@@ -1111,7 +1111,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/the80hz/Projects/CLionProjects/Daniil"
+			"value" : "/Users/the80hz/Projects/CLionProjects/Laba3_var2_Daniil"
 		}
 	],
 	"kind" : "cache",
