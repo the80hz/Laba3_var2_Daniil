@@ -90,6 +90,12 @@ build CMakeFiles/Daniil.dir/sphere.cpp.o: CXX_COMPILER__Daniil_Debug /Users/the8
   OBJECT_DIR = CMakeFiles/Daniil.dir
   OBJECT_FILE_DIR = CMakeFiles/Daniil.dir
 
+build CMakeFiles/Daniil.dir/cone.cpp.o: CXX_COMPILER__Daniil_Debug /Users/the80hz/Projects/CLionProjects/Laba3_var2_Daniil/cone.cpp || cmake_object_order_depends_target_Daniil
+  DEP_FILE = CMakeFiles/Daniil.dir/cone.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Daniil.dir
+  OBJECT_FILE_DIR = CMakeFiles/Daniil.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Daniil
@@ -98,7 +104,7 @@ build CMakeFiles/Daniil.dir/sphere.cpp.o: CXX_COMPILER__Daniil_Debug /Users/the8
 #############################################
 # Link the executable Daniil
 
-build Daniil: CXX_EXECUTABLE_LINKER__Daniil_Debug CMakeFiles/Daniil.dir/main.cpp.o CMakeFiles/Daniil.dir/cube.cpp.o CMakeFiles/Daniil.dir/sphere.cpp.o
+build Daniil: CXX_EXECUTABLE_LINKER__Daniil_Debug CMakeFiles/Daniil.dir/main.cpp.o CMakeFiles/Daniil.dir/cube.cpp.o CMakeFiles/Daniil.dir/sphere.cpp.o CMakeFiles/Daniil.dir/cone.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/Daniil.dir
   POST_BUILD = :
