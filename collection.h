@@ -16,10 +16,9 @@
 class collection{
 private:
     int _num;
-    figure** _A = nullptr;
+    figure** _data = nullptr;
 
 public:
-    int number();
     void add(figure* obj);
     void printAll();
     void delIndex(int index);

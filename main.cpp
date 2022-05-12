@@ -5,12 +5,14 @@
 
 #include <iostream>
 #include "printMenu.h"
+#include "collection.h"
 #include "randomInt.h"
 
 using namespace std;
 
 int main(){
     int command = 8;
+    auto* data = new collection();
     while(true){
         int a = 0, b = 0, c = 0;
         switch(command){
@@ -19,7 +21,7 @@ int main(){
                     cout << "Enter side: ";
                     cin >> a;
                 }
-
+                data->add(new cube(a));
                 cout << "Cube was successfully added!" << endl;
                 break;
             case 2:
@@ -27,7 +29,7 @@ int main(){
                     cout << "Enter radius: ";
                     cin >> a;
                 }
-
+                data->add(new sphere(a));
                 cout << "Sphere was successfully added!" << endl;
                 break;
             case 3:
@@ -43,27 +45,27 @@ int main(){
                     cout << "Enter radius: ";
                     cin >> c;
                 }
-
+                data->add(new cone(a, b, c));
                 cout << "Cone was successfully added!" << endl;
                 break;
             case 4:
-                cout << "Рандомный объект";
-
+                data->add(data->funcRand());
                 cout << "Random object was successfully added!" << endl;
                 break;
             case 5:
-                cout << "Удаление по индексу";
-
+                while(a <= 0){
+                    cout << "Enter index > 0: ";
+                    cin >> a;
+                }
+                data->delIndex(a);
                 cout << "Object was successfully deleted!" << endl;
                 break;
             case 6:
-                cout << "Удаление всех";
-
+                data->delAll();
                 cout << "All objects have been deleted!" << endl;
                 break;
             case 7:
-                cout << "Вывод всех объектов";
-
+                data->printAll();
                 break;
             case 8:
                 cout << endl;
