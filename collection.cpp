@@ -19,7 +19,8 @@ void collection::printAll(){
 }
 
 void collection::delIndex(int index){
-    if(index > _num || index < 0 || _num == 0) return;
+    if(index > _num || index < 0)
+        return;
     index--;
     delete _data[index];
     for(int i = index; i < _num; i++)
@@ -34,7 +35,7 @@ void collection::delAll(){
     for (int i = 0; i < _num; i++)
         delete _data[i];
     _num = 0;
-    _data = (figure**)realloc(_data, _num * sizeof(figure*));
+    _data = (figure**)realloc(_data, 0);
 }
 
 figure* collection::funcRand(){
@@ -45,6 +46,7 @@ figure* collection::funcRand(){
         return new sphere(randomInt(1, 100));
     else if (value == 3)
         return new cone(randomInt(1, 100), randomInt(1, 100), randomInt(1, 100));
+    return nullptr;
 }
 
 collection::~collection()

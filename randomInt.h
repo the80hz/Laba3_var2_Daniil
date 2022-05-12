@@ -14,5 +14,4 @@ using namespace std;
 
 int randomInt(unsigned int min, unsigned int max);
 
-
 #endif //DANIIL_RANDOMINT_H

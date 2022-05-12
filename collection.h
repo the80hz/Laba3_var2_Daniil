@@ -2,16 +2,13 @@
 // Created by Даниил Вольгов on 11.05.2022.
 //
 
+#ifndef DANIIL_COLLECTION_H
+#define DANIIL_COLLECTION_H
 #include <iostream>
-#include <ctime>
-#include <cstdlib>
 #include "randomInt.h"
 #include "cube.h"
 #include "sphere.h"
 #include "cone.h"
-#ifndef DANIIL_COLLECTION_H
-#define DANIIL_COLLECTION_H
-
 
 class collection{
 private:
@@ -23,9 +20,8 @@ public:
     void printAll();
     void delIndex(int index);
     void delAll();
-    figure* funcRand();
+    static figure* funcRand();
     ~collection();
 };
-
 
 #endif //DANIIL_COLLECTION_H

@@ -5,10 +5,10 @@
 #include "cube.h"
 
 double cube::area() const{
-    return 6 * pow(_side, 2); // S = 6 * a^2
+    return 6 * _side * _side; // S = 6 * a^2
 }
 double cube::volume() const{
-    return pow(_side, 3); // V = a^3
+    return _side * _side * _side; // V = a^3
 }
 string cube::info() const{
     return "Cube";

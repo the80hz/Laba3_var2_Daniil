@@ -2,9 +2,9 @@
 // Created by Даниил Вольгов on 11.05.2022.
 //
 
-#include "figure.h"
 #ifndef DANIIL_CUBE_H
 #define DANIIL_CUBE_H
+#include "figure.h"
 
 class cube: public figure{
 protected:
@@ -16,6 +16,5 @@ public:
     void print() const override;
     explicit cube(int side = 0);
 };
-
 
 #endif //DANIIL_CUBE_H
