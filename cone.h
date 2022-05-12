@@ -15,6 +15,7 @@ public:
     double volume() const override;
     string info() const override;
     void print() const override;
+    explicit cone(int length = 0, int height = 0, int radius = 0);
 };
 
 

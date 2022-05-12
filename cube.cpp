@@ -16,3 +16,4 @@ string cube::info() const{
 void cube::print() const{
     cout << "Name of figure: " << info() << endl << "Side: " << _side << endl;
 }
+cube::cube(int side):_side(side){}

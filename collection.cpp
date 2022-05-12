@@ -42,11 +42,11 @@ void collection::delAll() {
 figure* collection::funcRand() {
     int value = randomInt(1, 3);
     if (value == 1)
-        return new cube();
+        return new cube(randomInt(1, 100));
     else if (value == 2)
-        return new sphere();
+        return new sphere(randomInt(1, 100));
     else if (value == 3)
-        return new cone();
+        return new cone(randomInt(1, 100), randomInt(1, 100), randomInt(1, 100));
     else cout << "Error!" << endl;
 }
 

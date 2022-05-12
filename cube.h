@@ -14,6 +14,7 @@ public:
     double volume() const override;
     string info() const override;
     void print() const override;
+    explicit cube(int side = 0);
 };
 
 

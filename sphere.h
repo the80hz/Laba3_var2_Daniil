@@ -15,6 +15,7 @@ public:
     double volume() const override;
     string info() const override;
     void print() const override;
+    explicit sphere(int radius = 0);
 };
 
 

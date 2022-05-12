@@ -16,3 +16,4 @@ string sphere::info() const{
 void sphere::print() const{
     cout << "Name of figure: " << info() << endl << "Radius: " << _radius << endl;
 }
+sphere::sphere(int radius):_radius(radius){}

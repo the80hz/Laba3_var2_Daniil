@@ -17,3 +17,4 @@ void cone::print() const{
     cout << "Name of figure: " << info() << endl << "Length: " << _length <<
     endl << "Height: " << _height << endl << "Radius: " << _radius << endl;
 }
+cone::cone(int length, int height, int radius):_length(length), _height(height), _radius(radius){}
