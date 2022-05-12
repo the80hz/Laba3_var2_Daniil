@@ -19,12 +19,14 @@ void collection::printAll(){
 }
 
 void collection::delIndex(int index){
+    if(index > _num || index < 0 || _num == 0) return;
     index--;
-    if(index > _num) return;
     delete _data[index];
     for(int i = index; i < _num; i++)
         _data[i] = _data[i + 1];
-    _num--;
+    if(_num > 0)
+        _num--;
+
     _data = (figure**)realloc(_data, _num * sizeof(figure*));
 }
 

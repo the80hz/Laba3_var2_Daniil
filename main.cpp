@@ -6,7 +6,6 @@
 #include <iostream>
 #include "printMenu.h"
 #include "collection.h"
-#include "randomInt.h"
 
 using namespace std;
 
@@ -81,5 +80,6 @@ int main(){
         cout << endl;
         if (command == 0) break;
     }
+    delete data;
     return 0;
 }

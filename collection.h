@@ -15,7 +15,7 @@
 
 class collection{
 private:
-    int _num;
+    int _num = 0;
     figure** _data = nullptr;
 
 public:
