@@ -3,6 +3,9 @@
 //
 
 #include <iostream>
+#include <ctime>
+#include <cstdlib>
+#include "randomInt.h"
 #include "cube.h"
 #include "sphere.h"
 #include "cone.h"
@@ -19,8 +22,10 @@ public:
     int number();
     void add(figure* obj);
     void printAll();
-    void delIndex();
+    void delIndex(int index);
     void delAll();
+    figure* funcRand();
+    ~collection();
 };
 
 
